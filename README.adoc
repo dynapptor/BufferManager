@@ -33,4 +33,3 @@ manager.addBlock(100, 2);  // Add a block with 100 elements of 2 bytes each
 == License
 
 MIT License. See the `LICENSE` file for details.
-</xArtifact>
