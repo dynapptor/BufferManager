@@ -1,0 +1,36 @@
+= BufferManager Library
+:toc:
+:icons: font
+
+== Overview
+
+The BufferManager library provides a simple and efficient way to manage memory blocks in C++ applications, particularly for embedded systems or Arduino projects. It includes two main classes: `Block` and `BufferManager`.
+
+== Features
+
+* Manage multiple memory blocks with customizable element count and size
+* Add and remove blocks dynamically
+* Calculate total memory usage
+* Lightweight and suitable for resource-constrained environments
+
+== Installation
+
+1. Download the library from the GitHub repository.
+2. Place the library folder in your Arduino `libraries` directory.
+3. Include the library in your sketch using `#include <BufferManager.h>`.
+
+== Usage
+
+Create a `BufferManager` instance and add blocks as needed:
+
+```cpp
+#include <BufferManager.h>
+
+BufferManager manager(10); // Supports up to 10 blocks
+manager.addBlock(100, 2);  // Add a block with 100 elements of 2 bytes each
+```
+
+== License
+
+MIT License. See the `LICENSE` file for details.
+</xArtifact>

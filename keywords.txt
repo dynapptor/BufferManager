@@ -1,0 +1,37 @@
+####################################
+# BufferManager Library Keywords
+####################################
+
+####################################
+# Classes
+####################################
+Block			KEYWORD1
+Buffer			KEYWORD1
+BufferManager		KEYWORD1
+
+####################################
+# Functions / Methods
+####################################
+init			KEYWORD2
+set			KEYWORD2
+use			KEYWORD2
+used			KEYWORD2
+size			KEYWORD2
+buff			KEYWORD2
+release			KEYWORD2
+get			KEYWORD2
+
+####################################
+# Operators / Overloads
+####################################
+operator=		KEYWORD2
+operator[]		KEYWORD2
+operator*		KEYWORD2
+operator()		KEYWORD2
+operator bool		KEYWORD2
+operator uint8_t	KEYWORD2
+
+####################################
+# Variables / Global
+####################################
+bufferManager		KEYWORD2
